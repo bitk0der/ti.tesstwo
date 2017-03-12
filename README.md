@@ -8,9 +8,9 @@ Main method - GetOcr(image, whitelist, blacklist)
 
 image - Image as BLOB!
 
-whitelist - word white list for OCR filtering
+whitelist - letters white list for OCR filtering
 
-blacklist - word black list for OCR filtering
+blacklist - letters black list for OCR filtering
 
 N/B if you are using GetOcr without white or blacklist, pass empty string ''. Example: ocrlib.GetOcr(tmpImg, '', '')
 
