@@ -81,5 +81,5 @@ function OCRFromCamera(e){
 }
 
 //Get text from camera picture
-var FromCameraResult = OCRFromCamera(); 
+OCRFromCamera(); 
 ```
